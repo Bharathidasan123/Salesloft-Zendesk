@@ -1,0 +1,28 @@
+{
+  "name": "activecampaignzendesk",
+  "author": {
+    "name": "activecampaign",
+    "email": "bharathi.sabari@gmail.com",
+    "url": "https://www.zendesk.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": "assets/iframe.html"
+    }
+  },
+  "domainWhitelist": [
+    "{{setting.token}}",
+    "https://api.salesloft.com"
+  ],
+  "parameters": [
+    {
+      "name": "token",
+      "type": "text",
+      "secure": true
+    }
+  ],
+  "version": "1.0",
+  "frameworkVersion": "2.0"
+}
